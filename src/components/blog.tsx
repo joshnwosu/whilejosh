@@ -40,8 +40,8 @@ const DATA = [
 
 export default function Blog() {
   return (
-    <div className={styles.project}>
-      <BrickView column={2}>
+    <div className={styles.blog}>
+      <BrickView column={2} gutter={10}>
         {DATA.map(({ title, href, description, icon, lang }, index) => (
           <a
             href={href}

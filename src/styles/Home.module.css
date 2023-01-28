@@ -182,6 +182,10 @@
 }
 
 /* project */
+.project {
+  padding: 0px 10px;
+  /* border: 1px solid red; */
+}
 .project:hover .project_card {
   opacity: 0.5;
 }
@@ -223,3 +227,9 @@
   color: #949495;
   /* margin-top: 10px; */
 }
+
+/* blog */
+
+/* .blog {
+  border: 1px solid red;
+} */
