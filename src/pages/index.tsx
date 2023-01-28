@@ -1,5 +1,11 @@
 import Head from "next/head";
+import Image from "next/image";
+import { Inter } from "@next/font/google";
 import styles from "@/styles/Home.module.css";
+import Nav from "@/components/nav";
+import Me from "@/components/me";
+
+const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
   return (
@@ -11,7 +17,12 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={styles.main}>
-        <div aria-label="about-me"></div>
+        <div aria-label="about-me">
+          <div>
+            <Me inter={inter} />
+            <Nav />
+          </div>
+        </div>
         <div aria-label="projects"></div>
         <div aria-label="fade-gradient-top"></div>
         <div aria-label="fade-gradient-bottom"></div>
