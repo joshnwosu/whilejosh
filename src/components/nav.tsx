@@ -4,7 +4,8 @@ import styles from "@/styles/Home.module.css";
 const links = [
   { id: 1, title: "Projects", href: "projects" },
   { id: 2, title: "Blog", href: "blog" },
-  { id: 3, title: "What's up", href: "sup" },
+  { id: 3, title: "What's up?", href: "sup" },
+  { id: 4, title: "Resume", href: "cv" },
 ];
 
 export default function Nav() {
