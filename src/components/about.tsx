@@ -38,9 +38,9 @@ export default function About() {
           <div>
             <p className={[styles.desc, styles.mt_32].join(" ")}>
               Hi, I'm Joshua Nwosu a software engineer (and sometimes UI/UX
-              designer). <br />I build open-source front-end{" "}
+              designer). <br />I build open-source{" "}
               <a href="#" target="_blank">
-                libraries
+                front-end libraries
               </a>{" "}
               and also contribute to open-source projects with over 5+ years of
               experience.
