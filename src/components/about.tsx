@@ -42,7 +42,7 @@ export default function About() {
               <a href="#" target="_blank">
                 libraries
               </a>{" "}
-              and also contribute to open-source projects with over 3+ years of
+              and also contribute to open-source projects with over 5+ years of
               experience.
             </p>
             <p className={[styles.desc, styles.mt_8].join(" ")}>

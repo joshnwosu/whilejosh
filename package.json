@@ -20,6 +20,7 @@
     "react-brick-view": "^1.0.3",
     "react-dom": "18.2.0",
     "react-icons": "^4.7.1",
+    "react-scrollspy-nav": "^1.3.0",
     "typescript": "4.9.4"
   }
 }

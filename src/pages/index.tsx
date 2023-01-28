@@ -21,8 +21,8 @@ export default function Home() {
           <Projects />
           <Blog />
         </div>
-        <div className={styles.blur}></div>
-        <div className={styles.blur}></div>
+        <div className={[styles.blur, styles.blur0].join(" ")}></div>
+        <div className={[styles.blur, styles.blur1].join(" ")}></div>
       </div>
     </>
   );

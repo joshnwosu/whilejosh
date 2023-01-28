@@ -12,12 +12,15 @@
 }
 
 :root {
-  --bg: #f1eee9;
+  /* light theme */
+  /* --bg: #f1eee9;
   --card: #d9d4cc;
-  --bg-dark: #151515;
-  --card-dark: #202022;
-  --text-color: #444;
-  --text-color-dark: #fff;
+  --text-color: #444; */
+
+  /* dark theme */
+  --bg: #151515;
+  --card: #202022;
+  --text-color: #fff;
 }
 
 html,
@@ -33,8 +36,8 @@ body {
   font-family: "Josefin Sans", sans-serif;
   font-family: "Jost", sans-serif;
 
-  background-color: var(--bg-dark);
-  color: var(--text-color-dark);
+  background-color: var(--bg);
+  color: var(--text-color);
   line-height: 1.5;
 }
 
