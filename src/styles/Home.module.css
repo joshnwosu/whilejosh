@@ -43,7 +43,7 @@
 }
 
 .title {
-  margin-top: -5px;
+  margin-top: -1px;
   font-size: 14px;
   font-weight: 400;
   display: inline-flex;
@@ -62,6 +62,8 @@
   background-color: var(--card-dark);
   z-index: -1;
   left: 0;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
 }
 
 .mt_32 {

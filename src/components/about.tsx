@@ -2,7 +2,12 @@ import React from "react";
 import styles from "@/styles/Home.module.css";
 // import Me from "./me";
 import Nav from "./nav";
-import { IoLogoTwitter, IoLogoGithub, IoIosRedo } from "react-icons/io";
+import {
+  IoLogoTwitter,
+  IoLogoGithub,
+  IoIosRedo,
+  IoIosCode,
+} from "react-icons/io";
 import Image from "next/image";
 
 const DATA = [
@@ -25,7 +30,10 @@ export default function About() {
         <div>
           <div>
             <h1 className={styles.name}>Joshua Nwosu</h1>
-            <h2 className={styles.title}>Software Engineer</h2>
+            <h2 className={styles.title}>
+              <IoIosCode size={16} style={{ marginRight: 5 }} color="#949495" />
+              <span>Software Engineer</span>
+            </h2>
           </div>
           <div>
             <p className={[styles.desc, styles.mt_32].join(" ")}>
