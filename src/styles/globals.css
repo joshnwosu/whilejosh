@@ -15,18 +15,25 @@
   /* light theme */
   /* --bg: #f1eee9;
   --card: #d9d4cc;
-  --text-color: #444; */
+  --text-color: #444;
+  --text-color-light: #9b999a;
+  --title: #9b999a;
+  --blur0: linear-gradient(0deg, hsla(0, 0%, 8%, 0), #f1eee9);
+  --blur1: linear-gradient(180deg, hsla(0, 0%, 8%, 0), #f1eee9); */
 
   /* dark theme */
   --bg: #151515;
   --card: #202022;
   --text-color: #fff;
+  --text-color-light: #949495;
+  --title: #f5f5fa;
+  --blur0: linear-gradient(0deg, hsla(0, 0%, 8%, 0), #151515);
+  --blur1: linear-gradient(180deg, hsla(0, 0%, 8%, 0), #151515);
 }
 
 html,
 body {
   max-width: 100vw;
-  /* overflow-x: hidden; */
 }
 
 body {

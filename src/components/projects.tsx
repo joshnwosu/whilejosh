@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "@/styles/Home.module.css";
-import { IoLogoNpm } from "react-icons/io";
+import { IoLogoNpm, IoIosLink } from "react-icons/io";
 
 const DATA = [
   {
@@ -53,6 +53,9 @@ export default function Projects() {
           {/* </div> */}
           <h1 className={styles.project_title}>{title}</h1>
           <p className={styles.project_description}>{description}</p>
+          <span className={styles.project_icon}>
+            <IoIosLink size={30} />
+          </span>
         </a>
       ))}
     </div>

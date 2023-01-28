@@ -13,12 +13,12 @@ import Image from "next/image";
 const DATA = [
   {
     title: "Twitter",
-    href: "",
+    href: "https://twitter.com/whilejosh",
     icon: <IoLogoTwitter size={20} />,
   },
   {
     title: "Github",
-    href: "",
+    href: "https://github.com/joshnwosu",
     icon: <IoLogoGithub size={20} />,
   },
 ];
@@ -65,7 +65,7 @@ export default function About() {
         <ul className={styles.socials}>
           {DATA.map(({ title, icon, href }, index) => (
             <li key={index} className={styles.socials_li}>
-              <a href={href} className={styles.socials_link}>
+              <a href={href} target="_blank" className={styles.socials_link}>
                 {icon}
                 <span className={styles.socials_title}>{title}</span>
                 <IoIosRedo />

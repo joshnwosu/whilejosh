@@ -1,6 +1,5 @@
 import React from "react";
 import styles from "@/styles/Home.module.css";
-// import ScrollspyNav from "react-scrollspy-nav";
 
 const links = [
   { id: 1, title: "Projects", href: "projects" },
