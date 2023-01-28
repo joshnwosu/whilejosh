@@ -4,6 +4,9 @@ import { Inter } from "@next/font/google";
 import styles from "@/styles/Home.module.css";
 import Nav from "@/components/nav";
 import Me from "@/components/me";
+import About from "@/components/about";
+import Projects from "@/components/projects";
+import Blog from "@/components/blog";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -17,15 +20,15 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={styles.main}>
-        <div aria-label="about-me">
-          <div>
-            <Me inter={inter} />
-            <Nav />
-          </div>
-        </div>
-        <div aria-label="projects"></div>
-        <div aria-label="fade-gradient-top"></div>
-        <div aria-label="fade-gradient-bottom"></div>
+        <section className={styles.section}>
+          <About />
+        </section>
+        <section className={styles.section}>
+          <Projects />
+          <Blog />
+        </section>
+        <div className={styles.blur}></div>
+        <div className={styles.blur}></div>
       </main>
     </>
   );
