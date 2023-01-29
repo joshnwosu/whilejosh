@@ -27,6 +27,7 @@ export default function Home() {
           --title: ${theme.themeProps["title"]};
           --blur0: ${theme.themeProps["blur0"]};
           --blur1: ${theme.themeProps["blur1"]};
+          --bgResume: ${theme.themeProps["bgResume"]};
         }
       `}</style>
 

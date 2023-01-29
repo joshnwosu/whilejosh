@@ -7,6 +7,7 @@ export const themeConfig = {
     title: "#333",
     blur0: "linear-gradient(0deg, hsla(0, 0%, 8%, 0), #d9d4cc)",
     blur1: "linear-gradient(180deg, hsla(0, 0%, 8%, 0), #d9d4cc)",
+    bgResume: "rgba(217, 212, 204, 0.8)",
   },
   dark: {
     bg: "#151515",
@@ -16,5 +17,6 @@ export const themeConfig = {
     title: "#f5f5fa",
     blur0: "linear-gradient(0deg, hsla(0, 0%, 8%, 0), #151515)",
     blur1: "linear-gradient(180deg, hsla(0, 0%, 8%, 0), #151515)",
+    bgResume: "rgba(21, 21, 21, 0.8)",
   },
 };

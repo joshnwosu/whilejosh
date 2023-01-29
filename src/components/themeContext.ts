@@ -9,6 +9,7 @@ interface ThemeContextProps {
     title: string;
     blur0: string;
     blur1: string;
+    bgResume: string;
   };
   toggleTheme: (v: boolean) => void;
   toggleResume: (v: boolean) => void;
