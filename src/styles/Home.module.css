@@ -367,7 +367,9 @@ a.nav__link.is-active {
     top: 50px;
     left: -20px;
     opacity: 0.1;
-    margin-bottom: -20px;
+    margin-bottom: -30px;
     margin-left: -20px;
+    z-index: 2;
+    pointer-events: none;
   }
 }
