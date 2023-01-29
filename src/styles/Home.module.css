@@ -3,7 +3,7 @@
   max-width: 1400px;
   margin: 0 auto;
   position: relative;
-  padding: 0 20px;
+  padding: 0 50px;
   /* border: 1px solid red; */
 }
 
@@ -207,9 +207,9 @@ a.nav__link.is-active {
 }
 
 /* project */
-.project {
+/* .project {
   padding: 0px 10px;
-}
+} */
 .project:hover .project_card {
   opacity: 0.5;
 }

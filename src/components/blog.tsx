@@ -41,31 +41,31 @@ const DATA = [
 export default function Blog() {
   return (
     <div id="blog" className={styles.blog}>
-      <BrickView
+      {/* <BrickView
         column={1}
         gutter={10}
         breakPoint={{
           700: 1,
         }}
-      >
-        {DATA.map(({ title, href, description, icon, date }, index) => (
-          <a
-            href={href}
-            target="_blank"
-            key={index}
-            className={styles.project_card}
-            rel="noreferrer"
-          >
-            {/* <IoLogoNpm size={30} color="#949495" /> */}
-            <p className={styles.project_lang}>{date}</p>
-            <h1 className={styles.project_title}>{title}</h1>
-            <p className={styles.project_description}>{description}</p>
-            <span className={styles.project_icon}>
-              <IoIosLink size={30} />
-            </span>
-          </a>
-        ))}
-      </BrickView>
+      > */}
+      {DATA.map(({ title, href, description, icon, date }, index) => (
+        <a
+          href={href}
+          target="_blank"
+          key={index}
+          className={styles.project_card}
+          rel="noreferrer"
+        >
+          {/* <IoLogoNpm size={30} color="#949495" /> */}
+          <p className={styles.project_lang}>{date}</p>
+          <h1 className={styles.project_title}>{title}</h1>
+          <p className={styles.project_description}>{description}</p>
+          <span className={styles.project_icon}>
+            <IoIosLink size={30} />
+          </span>
+        </a>
+      ))}
+      {/* </BrickView> */}
     </div>
   );
 }
