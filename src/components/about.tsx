@@ -42,7 +42,11 @@ const About: React.FC = () => {
             <h1 className={styles.name}>
               Joshua Nwosu{" "}
               <span className={styles.theme_icon} onClick={handleToggle}>
-                <IoIosSunny size={30} color={theme.themeProps["textColor"]} />
+                {mode ? (
+                  <IoIosMoon size={20} color={theme.themeProps["textColor"]} />
+                ) : (
+                  <IoIosSunny size={20} color={theme.themeProps["textColor"]} />
+                )}
               </span>
             </h1>
             <h2 className={styles.title}>

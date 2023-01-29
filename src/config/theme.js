@@ -1,9 +1,9 @@
 export const themeConfig = {
   light: {
-    bg: "#f1eee9",
-    card: "#d9d4cc",
-    textColor: "#444",
-    textColorLight: "#9b999a",
+    bg: "#d9d4cc",
+    card: "#f1eee9",
+    textColor: "#222",
+    textColorLight: "#444",
     title: "#9b999a",
     blur0: "linear-gradient(0deg, hsla(0, 0%, 8%, 0), #f1eee9)",
     blur1: "linear-gradient(180deg, hsla(0, 0%, 8%, 0), #f1eee9)",
