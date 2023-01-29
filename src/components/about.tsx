@@ -59,7 +59,7 @@ const About: React.FC = () => {
           </div>
           <div>
             <p className={[styles.desc, styles.mt_32].join(" ")}>
-              Hi, I'm Joshua Nwosu a software engineer (and sometimes UI/UX
+              Hi, I&apos;m Joshua Nwosu a software engineer (and sometimes UI/UX
               designer).
             </p>
             <p className={[styles.desc, styles.mt_8].join(" ")}>
@@ -85,11 +85,6 @@ const About: React.FC = () => {
 
       <div className={styles.footer}>
         <div className={styles.profile_pic}>
-          {/* <Image src= /> */}
-          {/* <img
-            style={{ width: "100%", height: "100%", borderRadius: "100%" }}
-            src="https://media.licdn.com/dms/image/C5603AQEEfwyQYyHXHw/profile-displayphoto-shrink_800_800/0/1613826760366?e=1680134400&v=beta&t=sltVISQB9nr2CCn4VSuxDsUItup-uaT7HRc-olvo7Tc"
-          /> */}
           <Image
             src="https://media.licdn.com/dms/image/C5603AQEEfwyQYyHXHw/profile-displayphoto-shrink_800_800/0/1613826760366?e=1680134400&v=beta&t=sltVISQB9nr2CCn4VSuxDsUItup-uaT7HRc-olvo7Tc"
             alt="My Image"
