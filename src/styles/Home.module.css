@@ -364,7 +364,7 @@ a.nav__link.is-active {
     font-size: 48px;
     font-weight: 900;
     color: var(--text-color-light);
-    top: 0;
+    top: 50px;
     left: -20px;
     opacity: 0.1;
     margin-bottom: -20px;
