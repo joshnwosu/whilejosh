@@ -312,6 +312,24 @@ a.nav__link.is-active {
   cursor: pointer;
 }
 
+.madeWithLove {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 50px;
+}
+
+.madeWithLove_para {
+  font-size: 14px;
+  color: var(--text-color-light);
+}
+
+.madeWithLove_link {
+  text-decoration: underline;
+  color: var(--text-color);
+}
+
 @media screen and (max-width: 700px) {
   .flex {
     flex-direction: column;

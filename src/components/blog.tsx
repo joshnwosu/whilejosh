@@ -64,6 +64,9 @@ export default function Blog() {
           <span className={styles.project_icon}>
             <IoIosLink size={30} />
           </span>
+          {/* <div>
+            <p></p>
+          </div> */}
         </a>
       ))}
       {/* </BrickView> */}

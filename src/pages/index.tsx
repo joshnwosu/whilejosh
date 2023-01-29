@@ -6,6 +6,7 @@ import Blog from "@/components/blog";
 import React from "react";
 import themeContext from "@/components/themeContext";
 import Resume from "@/components/resume";
+import MadeWithLove from "@/components/madeWithLov";
 
 export default function Home() {
   const theme = React.useContext(themeContext);
@@ -38,6 +39,7 @@ export default function Home() {
         <div className={styles.scrollable}>
           <Projects />
           <Blog />
+          <MadeWithLove />
         </div>
         <div className={[styles.blur, styles.blur0].join(" ")}></div>
         <div className={[styles.blur, styles.blur1].join(" ")}></div>
