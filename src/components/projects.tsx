@@ -40,6 +40,7 @@ const DATA = [
 export default function Projects() {
   return (
     <div id="projects" className={styles.project}>
+      <h2 className={styles.lamp}>Projects</h2>
       {DATA.map(({ title, href, description, icon, lang }, index) => (
         <a
           href={href}

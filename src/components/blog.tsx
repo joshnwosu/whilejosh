@@ -41,6 +41,7 @@ const DATA = [
 export default function Blog() {
   return (
     <div id="blog" className={styles.blog}>
+      <h2 className={styles.lamp}>Blog</h2>
       {/* <BrickView
         column={1}
         gutter={10}
