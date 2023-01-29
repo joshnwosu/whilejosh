@@ -50,14 +50,20 @@ const About: React.FC = () => {
               </span>
             </h1>
             <h2 className={styles.title}>
-              <IoIosCode size={16} style={{ marginRight: 5 }} color="#949495" />
+              <IoIosCode
+                size={16}
+                style={{ marginRight: 5, color: "var(--text-color-light)" }}
+              />
               <span>Software Engineer</span>
             </h2>
           </div>
           <div>
             <p className={[styles.desc, styles.mt_32].join(" ")}>
               Hi, I'm Joshua Nwosu a software engineer (and sometimes UI/UX
-              designer). <br />I build open-source{" "}
+              designer).
+            </p>
+            <p className={[styles.desc, styles.mt_8].join(" ")}>
+              I build open-source{" "}
               <a href="#" target="_blank">
                 front-end libraries
               </a>{" "}

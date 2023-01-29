@@ -28,7 +28,7 @@
   position: -webkit-sticky;
   position: sticky;
   top: 0;
-  padding: 60px 60px 60px 10px;
+  padding: 60px 100px 60px 10px;
   font-size: 20px;
   height: 100vh;
 }
@@ -81,6 +81,7 @@
   justify-content: center;
   align-items: center;
   color: var(--title);
+  margin-left: -5px;
 }
 
 .title::before {
