@@ -307,3 +307,29 @@ a.nav__link.is-active {
   width: 50px;
   cursor: pointer;
 }
+
+@media screen and (max-width: 700px) {
+  .flex {
+    flex-direction: column;
+    padding: 0 10px;
+  }
+  .sticky,
+  .scrollable {
+    width: 100%;
+    height: auto;
+    position: relative;
+    padding: 50px 0px;
+  }
+
+  .sticky {
+    padding: 50px 10px;
+  }
+
+  .scrollable {
+    padding-bottom: 0;
+  }
+
+  .name {
+    font-size: 34px;
+  }
+}
