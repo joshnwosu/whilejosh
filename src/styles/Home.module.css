@@ -7,6 +7,11 @@
   /* border: 1px solid red; */
 }
 
+.theme_icon {
+  cursor: pointer;
+  user-select: none;
+}
+
 .sticky,
 .scrollable {
   width: 50%;
@@ -206,7 +211,7 @@ a.nav__link.is-active {
   background-color: var(--card);
   padding: 40px;
   margin-bottom: 10px;
-  transition: 300ms ease-in-out;
+  transition: transform 300ms ease-in-out;
   z-index: 1;
   position: relative;
 }
@@ -249,7 +254,7 @@ a.nav__link.is-active {
   top: 20px;
   opacity: 0;
   transform: scale(0);
-  transition: 300ms ease-in-out;
+  transition: transform 300ms ease-in-out;
 }
 
 /* blog */

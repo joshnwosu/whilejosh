@@ -8,7 +8,12 @@ export default function App({ Component, pageProps }: AppProps) {
   const [mode, setMode] = React.useState(false);
   const { light, dark } = themeConfig;
   return (
-    <themeContext.Provider value={mode ? light : dark}>
+    <themeContext.Provider
+      value={{
+        themeProps: mode ? light : dark,
+        onToggle: (v) => setMode(v),
+      }}
+    >
       <Component {...pageProps} />
     </themeContext.Provider>
   );

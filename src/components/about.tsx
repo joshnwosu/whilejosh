@@ -27,6 +27,12 @@ const DATA = [
 
 const About: React.FC = () => {
   const theme = React.useContext(themeContext);
+  const [mode, setMode] = React.useState(false);
+
+  const handleToggle = () => {
+    setMode(!mode);
+    theme.onToggle(!mode);
+  };
 
   return (
     <div className={styles.about}>
@@ -35,8 +41,8 @@ const About: React.FC = () => {
           <div>
             <h1 className={styles.name}>
               Joshua Nwosu{" "}
-              <span>
-                <IoIosSunny size={30} color={theme["textColor"]} />
+              <span className={styles.theme_icon} onClick={handleToggle}>
+                <IoIosSunny size={30} color={theme.themeProps["textColor"]} />
               </span>
             </h1>
             <h2 className={styles.title}>

@@ -19,13 +19,13 @@ export default function Home() {
 
       <style jsx global>{`
         :root {
-          --bg: ${theme["bg"]};
-          --card: ${theme["card"]};
-          --text-color: ${theme["textColor"]};
-          --text-color-light: ${theme["textColorLight"]};
-          --title: ${theme["title"]};
-          --blur0: ${theme["blur0"]};
-          --blur1: ${theme["blur1"]};
+          --bg: ${theme.themeProps["bg"]};
+          --card: ${theme.themeProps["card"]};
+          --text-color: ${theme.themeProps["textColor"]};
+          --text-color-light: ${theme.themeProps["textColorLight"]};
+          --title: ${theme.themeProps["title"]};
+          --blur0: ${theme.themeProps["blur0"]};
+          --blur1: ${theme.themeProps["blur1"]};
         }
       `}</style>
 
