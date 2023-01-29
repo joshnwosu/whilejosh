@@ -39,7 +39,7 @@ const DATA = [
 
 export default function Projects() {
   return (
-    <div className={styles.project}>
+    <div id="projects" className={styles.project}>
       {DATA.map(({ title, href, description, icon, lang }, index) => (
         <a
           href={href}

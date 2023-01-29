@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "@/styles/Home.module.css";
+import ScrollspyNav from "@/components/scrollspyNav";
 
 const links = [
   { id: 1, title: "Projects", href: "projects" },
@@ -11,17 +12,25 @@ const links = [
 export default function Nav() {
   return (
     <nav className={styles.nav}>
-      <ul className={styles.nav_ul}>
-        {links.map(({ id, title, href }) => (
-          <li key={id} className={styles.nav_li}>
-            <a href={`#${href}`} className={styles.nav_link}>
-              <span className={styles.nav_index}>0{id}</span>
-              <span className={styles.nav_line}></span>
-              <span className={styles.nav_title}>{title}</span>
-            </a>
-          </li>
-        ))}
-      </ul>
+      <ScrollspyNav
+        scrollTargetIds={["projects", "blog"]}
+        offset={-30}
+        activeNavClass="is-active"
+        scrollDuration="1000"
+        headerBackground={true}
+      >
+        <ul className={styles.nav__ul}>
+          {links.map(({ id, title, href }) => (
+            <li key={id} className={styles.nav__li}>
+              <a href={`#${href}`} className={styles.nav__link}>
+                <span className={styles.nav__index}>0{id}</span>
+                <span data-line className={styles.nav__line}></span>
+                <span className={styles.nav__title}>{title}</span>
+              </a>
+            </li>
+          ))}
+        </ul>
+      </ScrollspyNav>
     </nav>
   );
 }

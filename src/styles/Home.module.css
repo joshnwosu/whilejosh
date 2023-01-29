@@ -102,15 +102,23 @@
 
 /* nav */
 
+a.nav__link.is-active {
+  border: 1px solid red !important;
+}
+
 .nav {
   margin-top: 32px;
 }
 
-.nav_li {
+/* .nav__ul {
+  border: 1px solid blue;
+} */
+
+.nav__li {
   margin: 5px 30px 0;
 }
 
-.nav_link {
+.nav__link {
   font-size: 10px;
   display: inline-flex;
   align-items: center;
@@ -120,16 +128,20 @@
   color: var(--text-color-light);
 }
 
-.nav_link:hover {
+.nav__link:hover {
   color: var(--text-color);
 }
 
-.nav_link:hover .nav_line {
+.nav__link:hover .nav__line {
   width: 40px;
   border-color: var(--text-color);
 }
 
-.nav_line {
+/* .nav__link.is-active {
+  color: blue !important;
+} */
+
+.nav__line {
   width: 20px;
   border: 1px solid var(--text-color-light);
   margin: -1px 16px 0;
