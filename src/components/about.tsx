@@ -59,8 +59,8 @@ const About: React.FC = () => {
           </div>
           <div>
             <p className={[styles.desc, styles.mt_32].join(" ")}>
-              Hi, I&apos;m Joshua Udo Nwosu a software engineer (and sometimes
-              UI/UX designer).
+              Hi, I&apos;m Joshua Nwosu a software engineer (and sometimes UI/UX
+              designer).
             </p>
             <p className={[styles.desc, styles.mt_8].join(" ")}>
               I build open-source{" "}
