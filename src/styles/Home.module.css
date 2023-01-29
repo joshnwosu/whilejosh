@@ -122,7 +122,7 @@ a.nav__link.is-active {
 } */
 
 .nav__li {
-  margin: 5px 30px 0;
+  margin: 5px 0px 0;
 }
 
 .nav__link {
@@ -134,6 +134,7 @@ a.nav__link.is-active {
   padding: 10px 0;
   color: var(--text-color-light);
   letter-spacing: 2px;
+  transition: fontSize 300ms ease;
 }
 
 .nav__link:hover {
@@ -150,7 +151,7 @@ a.nav__link.is-active {
   height: 1px;
   background-color: var(--text-color-light);
   margin: -1px 16px 0;
-  transition: width 100ms ease;
+  transition: width 300ms ease-in-out;
   display: inline-block;
   padding: 0;
 }
