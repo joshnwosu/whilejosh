@@ -251,6 +251,7 @@ a.nav__link.is-active {
   letter-spacing: 2px;
   text-transform: uppercase;
   color: var(--text-color-light);
+  margin-top: 5px;
 }
 
 .project_title {

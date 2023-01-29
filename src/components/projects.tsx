@@ -1,6 +1,13 @@
 import React from "react";
 import styles from "@/styles/Home.module.css";
-import { IoLogoNpm, IoIosLink, IoLogoGameControllerB } from "react-icons/io";
+import {
+  IoLogoNpm,
+  IoIosLink,
+  IoLogoGameControllerB,
+  IoIosMusicalNote,
+  IoIosApps,
+  IoIosFingerPrint,
+} from "react-icons/io";
 
 const DATA = [
   {
@@ -34,6 +41,14 @@ const DATA = [
     lang: "Library",
     icon: <IoLogoNpm size={30} color="#949495" />,
     href: "https://www.npmjs.com/package/react-shadow-component",
+  },
+  {
+    title: "Zeeko",
+    description:
+      "A desktop music player application that allows users to play and manage their music library on their computer. It features a user-friendly interface, support for multiple audio formats, equalizer, playlists, and other customization options.",
+    lang: "Desktop application",
+    icon: <IoIosFingerPrint size={30} color="#949495" />,
+    href: "https://github.com/joshnwosu/Zeeko",
   },
 ];
 
