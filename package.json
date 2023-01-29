@@ -20,6 +20,7 @@
     "react-brick-view": "^1.0.5",
     "react-dom": "18.2.0",
     "react-icons": "^4.7.1",
+    "react-parallax-tilt": "^1.7.95",
     "typescript": "4.9.4"
   }
 }

@@ -27,6 +27,8 @@ class ScrollspyNav extends Component {
       this.homeDefaultLink = "/";
       this.hashIdentifier = "#";
     }
+
+    this.ticking = false;
   }
 
   /**
@@ -58,6 +60,7 @@ class ScrollspyNav extends Component {
       ) {
         this.getNavLinkElement(sectionID).classList.add(this.activeNavClass);
         this.clearOtherNavLinkActiveStyle(sectionID);
+        window.history.pushState(null, null, `#${sectionID}`);
       } else {
         this.getNavLinkElement(sectionID).classList.remove(this.activeNavClass);
       }
@@ -157,6 +160,7 @@ class ScrollspyNav extends Component {
         navLink.addEventListener("click", (event) => {
           event.preventDefault();
           let sectionID = this.getNavToSectionID(navLink.getAttribute("href"));
+          window.history.pushState(null, null, `#${sectionID}`);
 
           if (sectionID) {
             if (document.getElementById(sectionID)) {
@@ -183,7 +187,19 @@ class ScrollspyNav extends Component {
         });
       });
 
-    isBrowser && window.addEventListener("scroll", this.onScroll);
+    // isBrowser && window.addEventListener("scroll", this.onScroll);
+
+    // Throttle
+    let _ = this;
+    if (isBrowser) {
+      let timer;
+      window.addEventListener("scroll", function () {
+        clearTimeout(timer);
+        timer = setTimeout(function () {
+          _.onScroll();
+        }, 500); // Throttle the event to run every 100 milliseconds
+      });
+    }
   }
 
   componentWillUnmount() {

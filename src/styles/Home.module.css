@@ -1,8 +1,9 @@
 .flex {
   display: flex;
-  max-width: 1200px;
+  max-width: 1300px;
   margin: 0 auto;
   position: relative;
+  /* border: 1px solid red; */
 }
 
 .sticky,
@@ -14,7 +15,7 @@
   position: -webkit-sticky;
   position: sticky;
   top: 0;
-  padding: 60px 60px 60px 0;
+  padding: 60px 60px 60px 10px;
   font-size: 20px;
   height: 100vh;
 }
@@ -126,6 +127,7 @@ a.nav__link.is-active {
   text-transform: uppercase;
   padding: 10px 0;
   color: var(--text-color-light);
+  letter-spacing: 2px;
 }
 
 .nav__link:hover {
@@ -133,20 +135,18 @@ a.nav__link.is-active {
 }
 
 .nav__link:hover .nav__line {
-  width: 40px;
-  border-color: var(--text-color);
+  width: 60px;
+  background-color: var(--text-color);
 }
-
-/* .nav__link.is-active {
-  color: blue !important;
-} */
 
 .nav__line {
   width: 20px;
-  border: 1px solid var(--text-color-light);
+  height: 1px;
+  background-color: var(--text-color-light);
   margin: -1px 16px 0;
-  transition: width 300ms ease-in-out;
+  transition: width 100ms ease;
   display: inline-block;
+  padding: 0;
 }
 
 /* footer */
