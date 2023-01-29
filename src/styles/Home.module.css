@@ -1,9 +1,9 @@
 .flex {
   display: flex;
-  max-width: 1300px;
+  max-width: 1400px;
   margin: 0 auto;
   position: relative;
-  padding: 0 50px;
+  padding: 0 20px;
   /* border: 1px solid red; */
 }
 
