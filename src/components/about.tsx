@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "@/styles/Home.module.css";
-// import Me from "./me";
+import Image from "next/image";
 import Nav from "./nav";
 import {
   IoLogoTwitter,
@@ -64,15 +64,19 @@ const About: React.FC = () => {
             </p>
             <p className={[styles.desc, styles.mt_8].join(" ")}>
               I build open-source{" "}
-              <a href="#" target="_blank">
+              <a
+                href="https://github.com/joshnwosu"
+                target="_blank"
+                rel="noreferrer"
+              >
                 front-end libraries
               </a>{" "}
               and also contribute to open-source projects with over 5+ years of
               experience.
             </p>
             <p className={[styles.desc, styles.mt_8].join(" ")}>
-              On my spare time, I share what I learn on my blog and speak at
-              tech conferences around the world.
+              On my spare time, I share what I learn on my <a href="#">blog</a>{" "}
+              and speak at tech conferences around the world.
             </p>
           </div>
         </div>
@@ -82,15 +86,27 @@ const About: React.FC = () => {
       <div className={styles.footer}>
         <div className={styles.profile_pic}>
           {/* <Image src= /> */}
-          <img
+          {/* <img
             style={{ width: "100%", height: "100%", borderRadius: "100%" }}
             src="https://media.licdn.com/dms/image/C5603AQEEfwyQYyHXHw/profile-displayphoto-shrink_800_800/0/1613826760366?e=1680134400&v=beta&t=sltVISQB9nr2CCn4VSuxDsUItup-uaT7HRc-olvo7Tc"
+          /> */}
+          <Image
+            src="https://media.licdn.com/dms/image/C5603AQEEfwyQYyHXHw/profile-displayphoto-shrink_800_800/0/1613826760366?e=1680134400&v=beta&t=sltVISQB9nr2CCn4VSuxDsUItup-uaT7HRc-olvo7Tc"
+            alt="My Image"
+            width={40}
+            height={40}
           />
+          ;
         </div>
         <ul className={styles.socials}>
           {DATA.map(({ title, icon, href }, index) => (
             <li key={index} className={styles.socials_li}>
-              <a href={href} target="_blank" className={styles.socials_link}>
+              <a
+                href={href}
+                target="_blank"
+                rel="noreferrer"
+                className={styles.socials_link}
+              >
                 {icon}
                 <span className={styles.socials_title}>{title}</span>
                 <IoIosRedo />

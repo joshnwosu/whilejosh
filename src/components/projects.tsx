@@ -46,6 +46,7 @@ export default function Projects() {
           target="_blank"
           key={index}
           className={styles.project_card}
+          rel="noreferrer"
         >
           {/* <div> */}
           {icon}

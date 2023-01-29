@@ -48,6 +48,7 @@ export default function Blog() {
             target="_blank"
             key={index}
             className={styles.project_card}
+            rel="noreferrer"
           >
             {/* <IoLogoNpm size={30} color="#949495" /> */}
             <p className={styles.project_lang}>{date}</p>
