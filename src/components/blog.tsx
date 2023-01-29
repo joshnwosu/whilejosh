@@ -10,9 +10,9 @@ import { BrickView } from "react-brick-view";
 
 const DATA = [
   {
-    title: "How to create a tooltip with JavaScript",
+    title: "Shared element transition in React Native",
     description:
-      "A lightweight, performant, and responsive masonry layout component",
+      "React Native has quickly become one of the most popular frameworks for building cross-platform mobile applications. One of its standout features is the ability to create smooth and visually appealing transitions between screens. A key component that makes this possible is the Shared Element Transition.",
     date: "July 12, 2022",
     icon: <IoLogoNpm />,
     href: "https://www.npmjs.com/package/react-brick-view",
@@ -34,7 +34,7 @@ const DATA = [
     href: "https://www.npmjs.com/package/react-shadow-component",
   },
   {
-    title: "How to create an publish npm packages (React/React Native)",
+    title: "How to create and publish npm packages (React/React Native)",
     description:
       "Creating and publishing an npm package with React can seem daunting, but it's actually a straightforward process. Here's a step-by-step guide to help you create and publish your first React npm package:",
     date: "January 1, 2022",
