@@ -3,8 +3,11 @@ import styles from "@/styles/Home.module.css";
 import About from "@/components/about";
 import Projects from "@/components/projects";
 import Blog from "@/components/blog";
+import React from "react";
+import themeContext from "@/components/themeContext";
 
 export default function Home() {
+  const theme = React.useContext(themeContext);
   return (
     <>
       <Head>
@@ -13,6 +16,19 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
+
+      <style jsx global>{`
+        :root {
+          --bg: ${theme["bg"]};
+          --card: ${theme["card"]};
+          --text-color: ${theme["textColor"]};
+          --text-color-light: ${theme["textColorLight"]};
+          --title: ${theme["title"]};
+          --blur0: ${theme["blur0"]};
+          --blur1: ${theme["blur1"]};
+        }
+      `}</style>
+
       <div className={styles.flex}>
         <div className={styles.sticky}>
           <About />

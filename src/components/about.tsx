@@ -7,8 +7,10 @@ import {
   IoLogoGithub,
   IoIosRedo,
   IoIosCode,
+  IoIosMoon,
+  IoIosSunny,
 } from "react-icons/io";
-import Image from "next/image";
+import themeContext from "@/components/themeContext";
 
 const DATA = [
   {
@@ -23,13 +25,20 @@ const DATA = [
   },
 ];
 
-export default function About() {
+const About: React.FC = () => {
+  const theme = React.useContext(themeContext);
+
   return (
     <div className={styles.about}>
       <div>
         <div>
           <div>
-            <h1 className={styles.name}>Joshua Nwosu</h1>
+            <h1 className={styles.name}>
+              Joshua Nwosu{" "}
+              <span>
+                <IoIosSunny size={30} color={theme["textColor"]} />
+              </span>
+            </h1>
             <h2 className={styles.title}>
               <IoIosCode size={16} style={{ marginRight: 5 }} color="#949495" />
               <span>Software Engineer</span>
@@ -76,4 +85,6 @@ export default function About() {
       </div>
     </div>
   );
-}
+};
+
+export default About;
