@@ -31,7 +31,7 @@ const About: React.FC = () => {
 
   const handleToggle = () => {
     setMode(!mode);
-    theme.onToggle(!mode);
+    theme.toggleTheme(!mode);
   };
 
   return (

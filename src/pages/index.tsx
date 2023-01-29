@@ -5,6 +5,7 @@ import Projects from "@/components/projects";
 import Blog from "@/components/blog";
 import React from "react";
 import themeContext from "@/components/themeContext";
+import Resume from "@/components/resume";
 
 export default function Home() {
   const theme = React.useContext(themeContext);
@@ -39,6 +40,7 @@ export default function Home() {
         </div>
         <div className={[styles.blur, styles.blur0].join(" ")}></div>
         <div className={[styles.blur, styles.blur1].join(" ")}></div>
+        <Resume />
       </div>
     </>
   );

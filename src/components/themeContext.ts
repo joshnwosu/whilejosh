@@ -10,7 +10,9 @@ interface ThemeContextProps {
     blur0: string;
     blur1: string;
   };
-  onToggle: (v: any) => void;
+  toggleTheme: (v: boolean) => void;
+  toggleResume: (v: boolean) => void;
+  setToggleResume: boolean;
 }
 
 const themeContext = React.createContext<ThemeContextProps>(
