@@ -36,6 +36,7 @@ class ScrollspyNav extends Component {
    *  target sections. It highlights the nav link when scrolling to a corresponding section
    */
   onScroll() {
+    console.log("Hi");
     let scrollSectionOffsetTop;
     this.scrollTargetIds.forEach((sectionID, index) => {
       if (!document.getElementById(sectionID)) {
@@ -189,7 +190,7 @@ class ScrollspyNav extends Component {
 
     // isBrowser && window.addEventListener("scroll", this.onScroll);
 
-    // Throttle
+    // Throttle;
     let _ = this;
     if (isBrowser) {
       let timer;
