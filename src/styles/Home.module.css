@@ -332,4 +332,8 @@ a.nav__link.is-active {
   .name {
     font-size: 34px;
   }
+
+  .nav {
+    display: none;
+  }
 }
