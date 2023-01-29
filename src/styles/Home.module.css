@@ -8,8 +8,15 @@
 }
 
 .theme_icon {
+  display: inline-flex;
   cursor: pointer;
   user-select: none;
+  background-color: var(--card);
+  width: 40px;
+  height: 40px;
+  border-radius: 40px;
+  justify-content: center;
+  align-items: center;
 }
 
 .sticky,
@@ -294,8 +301,8 @@ a.nav__link.is-active {
   right: 50px;
   top: 50px;
   background-color: var(--card);
-  border-radius: 30px;
-  height: 30px;
-  width: 30px;
+  border-radius: 50px;
+  height: 50px;
+  width: 50px;
   cursor: pointer;
 }
