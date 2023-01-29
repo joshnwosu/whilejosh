@@ -15,7 +15,7 @@ const DATA = [
   {
     title: "Understanding useContext in react",
     description:
-      "A versatile package that simplifies the process of adding professional-grade shadow styles to your React components without the need to write complex CSS code",
+      "React's useContext Hook is a way to access data that is shared between components in your React application.",
     date: "October 8, 2022",
     icon: <IoLogoNpm />,
     href: "https://www.npmjs.com/package/react-shadow-component",
@@ -23,15 +23,15 @@ const DATA = [
   {
     title: "Become a better programmer with this 10 steps",
     description:
-      "A versatile package that simplifies the process of adding professional-grade shadow styles to your React components without the need to write complex CSS code",
+      "Becoming a better programmer takes time, effort, and dedication. However, there are several steps you can take to help you along the way.",
     date: "Novembar 19, 2022",
     icon: <IoLogoNpm />,
     href: "https://www.npmjs.com/package/react-shadow-component",
   },
   {
-    title: "Write an efficient code",
+    title: "How to create an publish npm packages (React/React Native)",
     description:
-      "A versatile package that simplifies the process of adding professional-grade shadow styles to your React components without the need to write complex CSS code",
+      "Creating and publishing an npm package with React can seem daunting, but it's actually a straightforward process. Here's a step-by-step guide to help you create and publish your first React npm package:",
     date: "January 1, 2022",
     icon: <IoLogoNpm />,
     href: "https://www.npmjs.com/package/react-shadow-component",
