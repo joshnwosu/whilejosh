@@ -1,6 +1,11 @@
 import React from "react";
 import styles from "@/styles/Home.module.css";
-import { IoIosLink, IoLogoNpm } from "react-icons/io";
+import {
+  IoIosLink,
+  IoLogoNpm,
+  IoIosRedo,
+  IoIosArrowForward,
+} from "react-icons/io";
 import { BrickView } from "react-brick-view";
 
 const DATA = [
@@ -64,9 +69,10 @@ export default function Blog() {
           <span className={styles.project_icon}>
             <IoIosLink size={30} />
           </span>
-          {/* <div>
-            <p></p>
-          </div> */}
+          <div className={styles.project_continueReading}>
+            <p className={styles.project_continueReading_para}>...See more</p>
+            <IoIosArrowForward />
+          </div>
         </a>
       ))}
       {/* </BrickView> */}

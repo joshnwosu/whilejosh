@@ -274,6 +274,22 @@ a.nav__link.is-active {
   transition: transform 300ms ease-in-out;
 }
 
+.project_continueReading {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* text-transform: capitalize; */
+  color: var(--text-color-light);
+  display: none;
+}
+
+.project_continueReading_para {
+  font-size: 14px;
+  /* color: var(--text-color); */
+  margin-right: 10px;
+}
+
 /* blog */
 
 /* Resume */
@@ -389,5 +405,8 @@ a.nav__link.is-active {
     margin-left: -20px;
     z-index: 99;
     pointer-events: none;
+  }
+  .project_continueReading {
+    display: flex;
   }
 }

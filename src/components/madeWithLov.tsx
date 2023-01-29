@@ -5,7 +5,7 @@ const MadeWithLove = () => {
   return (
     <div className={styles.madeWithLove}>
       <p className={styles.madeWithLove_para}>
-        Made with 🥤 by <a>Joshua Nwosu</a>
+        Made with 🥤 by <a>Joshua Nwosu.</a>
       </p>
       <p className={styles.madeWithLove_para}>
         Props to{" "}
