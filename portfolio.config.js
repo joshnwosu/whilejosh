@@ -1,5 +1,6 @@
 export const data = {
   author: 'Jerry Nwosu',
+  title: 'Software Engineer',
   socials: [
     {
       name: 'Twitter',
