@@ -75,8 +75,10 @@ const About: React.FC = () => {
               experience.
             </p>
             <p className={[styles.desc, styles.mt_8].join(" ")}>
-              On my spare time, I share what I learn on my <a href="#">blog</a>{" "}
-              and speak at tech conferences around the world.
+              When I am not occupied with my daily responsibilities, I like to
+              share my knowledge and experiences with others by posting about
+              the things I have learned. I find it to be a fulfilling way to
+              reflect on my growth and help others in the process.
             </p>
           </div>
         </div>
