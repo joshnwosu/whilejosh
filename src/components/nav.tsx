@@ -22,11 +22,11 @@ export default function Nav() {
         headerBackground={true}
       >
         <ul className={styles.nav__ul}>
-          {links.map(({ id, title, href }) => (
+          {links.map(({ id, title, href }, index) => (
             <li key={id} className={styles.nav__li}>
               {href ? (
                 <a href={`#${href}`} className={styles.nav__link}>
-                  <span className={styles.nav__index}>0{id}</span>
+                  <span className={styles.nav__index}>0{index + 1}</span>
                   <span data-line className={styles.nav__line}></span>
                   <span className={styles.nav__title}>{title}</span>
                 </a>
@@ -37,7 +37,7 @@ export default function Nav() {
                     theme.toggleResume(true);
                   }}
                 >
-                  <span className={styles.nav__index}>0{id}</span>
+                  <span className={styles.nav__index}>0{index + 1}</span>
                   <span data-line className={styles.nav__line}></span>
                   <span className={styles.nav__title}>{title}</span>
                 </button>
