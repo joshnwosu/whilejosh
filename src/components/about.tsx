@@ -1,7 +1,7 @@
-import React from "react";
-import styles from "@/styles/Home.module.css";
-import Image from "next/image";
-import Nav from "./nav";
+import React from 'react';
+import styles from '@/styles/Home.module.css';
+import Image from 'next/image';
+import Nav from './nav';
 import {
   IoLogoTwitter,
   IoLogoGithub,
@@ -9,18 +9,19 @@ import {
   IoIosCode,
   IoIosMoon,
   IoIosSunny,
-} from "react-icons/io";
-import themeContext from "@/components/themeContext";
+} from 'react-icons/io';
+import themeContext from '@/components/themeContext';
+import { data } from 'portfolio.config';
 
 const DATA = [
   {
-    title: "Twitter",
-    href: "https://twitter.com/whilejosh",
+    title: 'Twitter',
+    href: 'https://twitter.com/whilejosh',
     icon: <IoLogoTwitter size={20} />,
   },
   {
-    title: "Github",
-    href: "https://github.com/joshnwosu",
+    title: 'Github',
+    href: 'https://github.com/joshnwosu',
     icon: <IoLogoGithub size={20} />,
   },
 ];
@@ -40,19 +41,19 @@ const About: React.FC = () => {
         <div>
           <div>
             <h1 className={styles.name}>
-              Joshua Nwosu{" "}
+              {data.author}{' '}
               <span className={styles.theme_icon} onClick={handleToggle}>
                 {mode ? (
-                  <IoIosMoon size={20} color={theme.themeProps["textColor"]} />
+                  <IoIosMoon size={20} color={theme.themeProps['textColor']} />
                 ) : (
-                  <IoIosSunny size={20} color={theme.themeProps["textColor"]} />
+                  <IoIosSunny size={20} color={theme.themeProps['textColor']} />
                 )}
               </span>
             </h1>
             <h2 className={styles.title}>
               <IoIosCode
                 size={16}
-                style={{ marginRight: 5, color: "var(--text-color-light)" }}
+                style={{ marginRight: 5, color: 'var(--text-color-light)' }}
               />
               <span>Software Engineer</span>
             </h2>
@@ -82,22 +83,22 @@ const About: React.FC = () => {
             </p>
           </div> */}
           <div>
-            <p className={[styles.desc, styles.mt_32].join(" ")}>
-              Hi, I am Joshua Nwosu, a software engineer with over five years of
+            <p className={[styles.desc, styles.mt_32].join(' ')}>
+              Hi, I am {data.author}, a {data.title} with over five years of
               experience in the tech industry. My expertise lies in creating
               efficient and user-friendly software solutions. I am driven by my
               passion for programming and constantly seeking new challenges to
               improve my skills.
             </p>
-            <p className={[styles.desc, styles.mt_8].join(" ")}>
-              I am also an active member of the open-source community,{" "}
+            <p className={[styles.desc, styles.mt_8].join(' ')}>
+              I am also an active member of the open-source community,{' '}
               <a
                 href="https://github.com/joshnwosu"
                 target="_blank"
                 rel="noreferrer"
               >
                 building libraries
-              </a>{" "}
+              </a>{' '}
               and contributing to projects. I believe in sharing my knowledge
               and helping others to grow in the field of technology. I am always
               striving to create top-notch software that makes a positive
@@ -110,13 +111,7 @@ const About: React.FC = () => {
 
       <div className={styles.footer}>
         <div className={styles.profile_pic}>
-          <Image
-            src="https://media.licdn.com/dms/image/C5603AQEEfwyQYyHXHw/profile-displayphoto-shrink_800_800/0/1613826760366?e=1680134400&v=beta&t=sltVISQB9nr2CCn4VSuxDsUItup-uaT7HRc-olvo7Tc"
-            alt="My Image"
-            width={40}
-            height={40}
-          />
-          ;
+          <Image src={data.avatar} alt="My Image" width={40} height={40} />;
         </div>
         <ul className={styles.socials}>
           {DATA.map(({ title, icon, href }, index) => (
