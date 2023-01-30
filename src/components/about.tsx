@@ -83,7 +83,7 @@ const About: React.FC = () => {
           </div> */}
           <div>
             <p className={[styles.desc, styles.mt_32].join(" ")}>
-              I am Joshua Nwosu, a software engineer with over five years of
+              Hi, I am Joshua Nwosu, a software engineer with over five years of
               experience in the tech industry. My expertise lies in creating
               efficient and user-friendly software solutions. I am driven by my
               passion for programming and constantly seeking new challenges to
