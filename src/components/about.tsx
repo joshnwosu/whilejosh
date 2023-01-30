@@ -57,7 +57,7 @@ const About: React.FC = () => {
               <span>Software Engineer</span>
             </h2>
           </div>
-          <div>
+          {/* <div>
             <p className={[styles.desc, styles.mt_32].join(" ")}>
               Hi, I&apos;m Joshua Nwosu a software engineer (and sometimes UI/UX
               designer).
@@ -79,6 +79,29 @@ const About: React.FC = () => {
               share my knowledge and experiences with others by posting about
               the things I have learned. I find it to be a fulfilling way to
               reflect on my growth and help others in the process.
+            </p>
+          </div> */}
+          <div>
+            <p className={[styles.desc, styles.mt_32].join(" ")}>
+              I am Joshua Nwosu, a software engineer with over five years of
+              experience in the tech industry. My expertise lies in creating
+              efficient and user-friendly software solutions. I am driven by my
+              passion for programming and constantly seeking new challenges to
+              improve my skills.
+            </p>
+            <p className={[styles.desc, styles.mt_8].join(" ")}>
+              I am also an active member of the open-source community,{" "}
+              <a
+                href="https://github.com/joshnwosu"
+                target="_blank"
+                rel="noreferrer"
+              >
+                building libraries
+              </a>{" "}
+              and contributing to projects. I believe in sharing my knowledge
+              and helping others to grow in the field of technology. I am always
+              striving to create top-notch software that makes a positive
+              impact.
             </p>
           </div>
         </div>
