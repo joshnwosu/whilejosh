@@ -92,7 +92,7 @@
 }
 
 .title::before {
-  content: "";
+  content: '';
   position: absolute;
   width: 60%;
   height: 30px;
@@ -234,10 +234,12 @@ a.nav__link.is-active {
 }
 
 .project_card:hover {
-  will-change: transform;
   transform: scale(1.1);
   z-index: 2;
   opacity: 1 !important;
+  text-rendering: optimizeLegibility;
+  backface-visibility: hidden;
+  font-size-adjust: 0.1;
 }
 
 .project_card:hover .project_icon {
