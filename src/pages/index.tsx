@@ -15,7 +15,7 @@ export default function Home() {
     <>
       <Head>
         <title>{data.author}</title>
-        <meta name="description" content="Made with 🥤 by <a>Joshua Nwosu" />
+        <meta name="description" content={`Made with 🥤 by ${data.author}`} />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
