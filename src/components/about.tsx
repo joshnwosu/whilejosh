@@ -13,19 +13,6 @@ import {
 import themeContext from '@/components/themeContext';
 import { data } from 'portfolio.config';
 
-const DATA = [
-  {
-    title: 'Twitter',
-    href: 'https://twitter.com/whilejosh',
-    icon: <IoLogoTwitter size={20} />,
-  },
-  {
-    title: 'Github',
-    href: 'https://github.com/joshnwosu',
-    icon: <IoLogoGithub size={20} />,
-  },
-];
-
 const About: React.FC = () => {
   const theme = React.useContext(themeContext);
   const [mode, setMode] = React.useState(false);
@@ -58,30 +45,6 @@ const About: React.FC = () => {
               <span>Software Engineer</span>
             </h2>
           </div>
-          {/* <div>
-            <p className={[styles.desc, styles.mt_32].join(" ")}>
-              Hi, I&apos;m Joshua Nwosu a software engineer (and sometimes UI/UX
-              designer).
-            </p>
-            <p className={[styles.desc, styles.mt_8].join(" ")}>
-              I build open-source{" "}
-              <a
-                href="https://github.com/joshnwosu"
-                target="_blank"
-                rel="noreferrer"
-              >
-                front-end libraries
-              </a>{" "}
-              and also contribute to open-source projects with over 5+ years of
-              experience.
-            </p>
-            <p className={[styles.desc, styles.mt_8].join(" ")}>
-              When I am not occupied with my daily responsibilities, I like to
-              share my knowledge and experiences with others by posting about
-              the things I have learned. I find it to be a fulfilling way to
-              reflect on my growth and help others in the process.
-            </p>
-          </div> */}
           <div>
             <p className={[styles.desc, styles.mt_32].join(' ')}>
               Hi, I am {data.author}, a {data.title} with over five years of
@@ -114,7 +77,7 @@ const About: React.FC = () => {
           <Image src={data.avatar} alt="My Image" width={40} height={40} />;
         </div>
         <ul className={styles.socials}>
-          {DATA.map(({ title, icon, href }, index) => (
+          {data.socials.map(({ title, icon, href }, index) => (
             <li key={index} className={styles.socials_li}>
               <a
                 href={href}
