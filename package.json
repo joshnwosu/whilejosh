@@ -23,5 +23,8 @@
     "react-parallax-tilt": "^1.7.95",
     "react-pdf": "^6.2.2",
     "typescript": "4.9.4"
+  },
+  "devDependencies": {
+    "@types/react-pdf": "^6.2.0"
   }
 }

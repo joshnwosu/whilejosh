@@ -234,7 +234,6 @@ a.nav__link.is-active {
 }
 
 .project_card:hover {
-  will-change: transform;
   transform: scale(1.1);
   z-index: 2;
   opacity: 1 !important;
@@ -306,7 +305,20 @@ a.nav__link.is-active {
   transition: all 300ms linear;
   opacity: 0.5;
   visibility: hidden;
+  /* border: 1px solid red; */
+  /* margin: 0 auto; */
+  /* padding-left: 200px; */
   /* transform-style: preserve-3d; */
+  display: flex;
+}
+
+.resume__wrapper {
+  margin: auto;
+  height: 100vh;
+}
+
+.resume__pdf {
+  height: 100vh;
 }
 
 .resume.resume__active {
