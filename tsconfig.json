@@ -19,6 +19,6 @@
       "@/*": ["./src/*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "portfolioConfig.js"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "portfolio.config.js"],
   "exclude": ["node_modules"]
 }
