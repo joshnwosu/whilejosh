@@ -14,7 +14,7 @@ const MadeWithLove = () => {
         >
           Joshua
         </a>{' '}
-        &amps;{' '}
+        &amp;{' '}
         <a
           href="https://github.com/geekreflex"
           target="_blank"
