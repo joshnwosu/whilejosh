@@ -6,8 +6,8 @@ import themeContext from "./themeContext";
 const links = [
   { id: 1, title: "Projects", href: "projects" },
   { id: 2, title: "Blog", href: "blog" },
-  // { id: 3, title: "What's up?", href: "sup" },
-  { id: 4, title: "Resume" },
+  { id: 3, title: "Get in touch", href: "contact" },
+  // { id: 4, title: "Resume" },
 ];
 
 export default function Nav() {
