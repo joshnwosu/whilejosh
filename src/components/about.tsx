@@ -1,7 +1,7 @@
-import React from 'react';
-import styles from '@/styles/Home.module.css';
-import Image from 'next/image';
-import Nav from './nav';
+import React from "react";
+import styles from "@/styles/Home.module.css";
+import Image from "next/image";
+import Nav from "./nav";
 import {
   IoLogoTwitter,
   IoLogoGithub,
@@ -9,9 +9,9 @@ import {
   IoIosCode,
   IoIosMoon,
   IoIosSunny,
-} from 'react-icons/io';
-import themeContext from '@/components/themeContext';
-import { data } from 'portfolio.config';
+} from "react-icons/io";
+import themeContext from "@/components/themeContext";
+import { data } from "portfolio.config";
 
 const About: React.FC = () => {
   const theme = React.useContext(themeContext);
@@ -28,40 +28,40 @@ const About: React.FC = () => {
         <div>
           <div>
             <h1 className={styles.name}>
-              {data.author}{' '}
+              {data.author}{" "}
               <span className={styles.theme_icon} onClick={handleToggle}>
                 {mode ? (
-                  <IoIosMoon size={20} color={theme.themeProps['textColor']} />
+                  <IoIosMoon size={20} color={theme.themeProps["textColor"]} />
                 ) : (
-                  <IoIosSunny size={20} color={theme.themeProps['textColor']} />
+                  <IoIosSunny size={20} color={theme.themeProps["textColor"]} />
                 )}
               </span>
             </h1>
             <h2 className={styles.title}>
               <IoIosCode
                 size={16}
-                style={{ marginRight: 5, color: 'var(--text-color-light)' }}
+                style={{ marginRight: 5, color: "var(--text-color-light)" }}
               />
               <span>Software Engineer</span>
             </h2>
           </div>
           <div>
-            <p className={[styles.desc, styles.mt_32].join(' ')}>
-              Hi, I am {data.author}, a {data.title} with over five years of
+            <p className={[styles.desc, styles.mt_32].join(" ")}>
+              Hi, I am {data.author}, a {data.title} with over 5+ years of
               experience in the tech industry. My expertise lies in creating
               efficient and user-friendly software solutions. I am driven by my
               passion for programming and constantly seeking new challenges to
               improve my skills.
             </p>
-            <p className={[styles.desc, styles.mt_8].join(' ')}>
-              I am also an active member of the open-source community,{' '}
+            <p className={[styles.desc, styles.mt_8].join(" ")}>
+              I am also an active member of the open-source community,{" "}
               <a
                 href="https://github.com/joshnwosu"
                 target="_blank"
                 rel="noreferrer"
               >
                 building libraries
-              </a>{' '}
+              </a>{" "}
               and contributing to projects. I believe in sharing my knowledge
               and helping others to grow in the field of technology. I am always
               striving to create top-notch software that makes a positive
