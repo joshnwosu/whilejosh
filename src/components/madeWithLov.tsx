@@ -7,7 +7,7 @@ const MadeWithLove = () => {
       <p className={styles.madeWithLove_para}>
         Made with 🥤 by <a>Joshua Nwosu.</a>
       </p>
-      <p className={styles.madeWithLove_para}>
+      {/* <p className={styles.madeWithLove_para}>
         Props to{" "}
         <a
           href="https://github.com/sarahdayan/"
@@ -17,7 +17,7 @@ const MadeWithLove = () => {
         >
           Sarah Dayan
         </a>
-      </p>
+      </p> */}
     </div>
   );
 };
