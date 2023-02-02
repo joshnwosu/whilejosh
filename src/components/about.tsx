@@ -48,10 +48,9 @@ const About: React.FC = () => {
           <div>
             <p className={[styles.desc, styles.mt_32].join(" ")}>
               Hi, I am {data.author}, a {data.title} with over 5+ years of
-              experience in the tech industry. My expertise lies in creating
-              efficient and user-friendly software solutions. I am driven by my
-              passion for programming and constantly seeking new challenges to
-              improve my skills.
+              experience. My expertise lies in creating efficient and
+              user-friendly software solutions. I am driven by my passion and
+              constantly seeking new challenges to improve my skills.
             </p>
             <p className={[styles.desc, styles.mt_8].join(" ")}>
               I am also an active member of the open-source community,{" "}
@@ -63,9 +62,8 @@ const About: React.FC = () => {
                 building libraries
               </a>{" "}
               and contributing to projects. I believe in sharing my knowledge
-              and helping others to grow in the field of technology. I am always
-              striving to create top-notch software that makes a positive
-              impact.
+              and helping others to grow. I am always striving to create
+              top-notch software that makes a positive impact.
             </p>
           </div>
         </div>

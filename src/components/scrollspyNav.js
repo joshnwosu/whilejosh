@@ -60,7 +60,7 @@ class ScrollspyNav extends Component {
       ) {
         this.getNavLinkElement(sectionID).classList.add(this.activeNavClass);
         this.clearOtherNavLinkActiveStyle(sectionID);
-        window.history.pushState(null, null, `#${sectionID}`);
+        // window.history.pushState(null, null, `#${sectionID}`);
       } else {
         this.getNavLinkElement(sectionID).classList.remove(this.activeNavClass);
       }
