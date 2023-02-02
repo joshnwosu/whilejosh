@@ -1,11 +1,11 @@
-import React from 'react';
-import styles from '@/styles/Home.module.css';
+import React from "react";
+import styles from "@/styles/Home.module.css";
 
 const MadeWithLove = () => {
   return (
     <div className={styles.madeWithLove}>
       <p className={styles.madeWithLove_para}>
-        Made with 🥤 by{' '}
+        Made with 🥤 by{" "}
         <a
           href="https://github.com/whilejosh"
           target="_blank"
@@ -13,8 +13,8 @@ const MadeWithLove = () => {
           className={styles.madeWithLove_link}
         >
           Joshua
-        </a>{' '}
-        &amp;{' '}
+        </a>{" "}
+        &amp;{" "}
         <a
           href="https://github.com/geekreflex"
           target="_blank"
@@ -34,7 +34,7 @@ const MadeWithLove = () => {
         >
           Sarah Dayan
         </a>
-      </p> */}
+      </p>
     </div>
   );
 };
