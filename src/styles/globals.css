@@ -64,7 +64,5 @@ a.is-active span[data-line="true"] {
 }
 
 a.dot-is-active span[data-dot-line="true"] {
-  width: 20px !important;
-  height: 8px !important;
   background-color: var(--text-color) !important;
 }
