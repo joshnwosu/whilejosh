@@ -29,6 +29,7 @@ export const themeConfig = {
     blur0: "linear-gradient(0deg, hsla(0, 0%, 8%, 0), #ffffff)",
     blur1: "linear-gradient(180deg, hsla(0, 0%, 8%, 0), #ffffff)",
     bgResume: "rgba(217, 212, 204, 0.8)",
+    button: "#f6f6f7",
   },
   dark: {
     bg: "#1E1E20",
@@ -39,5 +40,6 @@ export const themeConfig = {
     blur0: "linear-gradient(0deg, hsla(0, 0%, 8%, 0), #1E1E20)",
     blur1: "linear-gradient(180deg, hsla(0, 0%, 8%, 0), #1E1E20)",
     bgResume: "rgba(21, 21, 21, 0.8)",
+    button: "#313136",
   },
 };
