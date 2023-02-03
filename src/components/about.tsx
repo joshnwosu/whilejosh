@@ -67,13 +67,13 @@ const About: React.FC = () => {
               top-notch software that makes a positive impact.
             </p>
             <p className={[styles.desc, styles.mt_8].join(" ")}>
-              💬 Download{" "}
+              💬 Download my{" "}
               <a
                 href="https://drive.google.com/file/d/1HylNDppAju6kj5Xhs4zZb9yk4hLSnuN1/view?usp=sharing"
                 target="_blank"
                 rel="noreferrer"
               >
-                my Résumé
+                Résumé
               </a>{" "}
             </p>
           </div>
