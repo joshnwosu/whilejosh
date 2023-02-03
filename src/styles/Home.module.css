@@ -490,7 +490,7 @@
     display: none;
   }
 
-  .lamp {
+  /* .lamp {
     position: sticky;
     visibility: visible;
     opacity: 1;
@@ -506,7 +506,7 @@
     margin-left: -20px;
     z-index: 99;
     pointer-events: none;
-  }
+  } */
   .project_continueReading {
     display: flex;
   }
