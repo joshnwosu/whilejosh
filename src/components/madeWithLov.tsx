@@ -5,7 +5,7 @@ const MadeWithLove = () => {
   return (
     <div className={styles.madeWithLove}>
       <p className={styles.madeWithLove_para}>
-        Made with 🥤 by{" "}
+        Made with ☕ by{" "}
         <a
           href="https://github.com/whilejosh"
           target="_blank"
@@ -25,15 +25,7 @@ const MadeWithLove = () => {
         </a>
       </p>
       <p className={styles.madeWithLove_para}>
-        Props to{" "}
-        <a
-          href="https://github.com/sarahdayan/"
-          target="_blank"
-          rel="noreferrer"
-          className={styles.madeWithLove_link}
-        >
-          Sarah Dayan
-        </a>
+        Props to Cappuccino &amp; Espresso
       </p>
     </div>
   );

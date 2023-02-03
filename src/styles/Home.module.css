@@ -189,6 +189,31 @@ a.nav__link.is-active {
   padding: 0;
 }
 
+/* Dot */
+
+.dot {
+  border: 1px solid green;
+}
+
+.dot__ul {
+  display: flex;
+  align-items: center;
+}
+
+.dot__li {
+  margin-right: 10px;
+}
+
+.dot__link {
+  width: 20px;
+  height: 20px;
+  background-color: red;
+  border-radius: 50%;
+  font-size: 0;
+  color: transparent;
+  overflow: hidden;
+}
+
 /* footer */
 
 .footer {
