@@ -142,10 +142,6 @@
 
 /* nav */
 
-a.nav__link.is-active {
-  border: 1px solid red !important;
-}
-
 .nav {
   margin-top: 32px;
 }
@@ -192,7 +188,11 @@ a.nav__link.is-active {
 /* Dot */
 
 .dot {
-  border: 1px solid green;
+  /* border: 1px solid green; */
+  margin-top: 20px;
+  /* margin-left: 20px; */
+  display: flex;
+  /* justify-content: center; */
 }
 
 .dot__ul {
@@ -201,17 +201,52 @@ a.nav__link.is-active {
 }
 
 .dot__li {
-  margin-right: 10px;
+  position: relative;
 }
 
 .dot__link {
+  display: inline-block;
+  position: relative;
+  /* border: 1px solid red; */
+  padding: 10px;
+}
+
+.dot__link:hover .dot__line {
+  background-color: var(--text-color);
+}
+
+.dot__link:hover .dot__tooltip {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+.dot__line {
+  display: block;
   width: 20px;
-  height: 20px;
-  background-color: red;
-  border-radius: 50%;
-  font-size: 0;
-  color: transparent;
-  overflow: hidden;
+  height: 4px;
+  background-color: var(--card);
+  transition: 300ms ease;
+  position: relative;
+}
+
+.dot__tooltip {
+  display: flex;
+  position: absolute;
+  background-color: var(--card);
+  color: var(--text-color-light);
+  font-size: 10px;
+  padding: 7px 20px;
+  border-radius: 10px;
+  left: 10px;
+  top: 30px;
+  white-space: nowrap;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(-10px);
+  transition: 300ms ease;
+  letter-spacing: 2px;
+  text-transform: uppercase;
 }
 
 /* footer */
@@ -270,11 +305,13 @@ a.nav__link.is-active {
   flex-direction: column;
   background-color: var(--card);
   padding: 40px;
+  /* margin-bottom: -20px; */
   margin-bottom: 10px;
   transition: 300ms ease-in-out;
   z-index: 1;
   position: relative;
   border-radius: 12px;
+  /* box-shadow: 0px 0px 50px 0px var(--bg); */
 }
 
 .project_card:hover {
@@ -468,5 +505,9 @@ a.nav__link.is-active {
   }
   .project_continueReading {
     display: flex;
+  }
+
+  .dot {
+    display: none;
   }
 }

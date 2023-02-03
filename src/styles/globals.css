@@ -62,3 +62,7 @@ a.is-active span[data-line="true"] {
   width: 60px !important;
   background-color: var(--text-color) !important;
 }
+
+a.dot-is-active span[data-dot-line="true"] {
+  background-color: var(--text-color) !important;
+}
