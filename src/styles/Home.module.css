@@ -266,6 +266,7 @@
 }
 
 .socials {
+  flex: 1;
   display: flex;
   align-items: center;
 }
@@ -273,7 +274,7 @@
 .socials_li {
   display: flex;
   align-items: center;
-  margin-right: 10px;
+  margin-right: 20px;
 }
 
 .socials_link {
@@ -282,13 +283,7 @@
   letter-spacing: 2px;
   text-transform: uppercase;
   align-items: center;
-  background-color: var(--button);
-  padding: 10px 20px;
-  border-radius: 20px;
-}
-
-.socials_link:hover {
-  background-color: var(--card);
+  text-decoration: underline;
 }
 
 .socials_title {
@@ -518,5 +513,9 @@
 
   .dot {
     display: none;
+  }
+
+  .footer {
+    margin-top: 50px;
   }
 }
