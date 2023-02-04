@@ -1,5 +1,6 @@
 import React from 'react';
 import styles from '@/styles/Home.module.css';
+import { data } from 'portfolio.config';
 
 const Hello = () => {
   return (
@@ -46,7 +47,7 @@ const Hello = () => {
             />
           </g>
         </svg>
-        <button>Say Hello</button>
+        <a href={`mailto:${data.email}`}>Let's Level Up!</a>
       </div>
     </div>
   );

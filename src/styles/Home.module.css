@@ -435,14 +435,16 @@
   width: 200px;
 }
 
-.hello_action button {
+.hello_action a {
   border: 1px solid var(--text-color-light);
   padding: 10px 20px;
-  font-weight: 900;
   border-radius: 5px;
+  font-weight: 600;
+  color: var(--text-color-light);
+  font-size: 14px;
 }
 
-.hello_action button:hover {
+.hello_action a:hover {
   background-color: var(--card);
   color: var(--text-color);
 }
