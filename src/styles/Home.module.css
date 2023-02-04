@@ -188,11 +188,8 @@
 /* Dot */
 
 .dot {
-  /* border: 1px solid green; */
   margin-top: 20px;
-  /* margin-left: 20px; */
   display: flex;
-  /* justify-content: center; */
 }
 
 .dot__ul {
@@ -207,7 +204,6 @@
 .dot__link {
   display: inline-block;
   position: relative;
-  /* border: 1px solid red; */
   padding: 10px;
 }
 
@@ -248,8 +244,6 @@
   letter-spacing: 2px;
   text-transform: uppercase;
 }
-
-/* footer */
 
 .footer {
   margin-top: 20px;
@@ -295,10 +289,6 @@
   margin-bottom: 60px;
 }
 
-/* project */
-/* .project {
-  padding: 0px 10px;
-} */
 .blog:hover .project_card,
 .project:hover .project_card {
   opacity: 0.5;
@@ -309,13 +299,11 @@
   flex-direction: column;
   background-color: var(--card);
   padding: 40px;
-  /* margin-bottom: -20px; */
   margin-bottom: 10px;
   transition: 300ms ease-in-out;
   z-index: 1;
   position: relative;
   border-radius: 12px;
-  /* box-shadow: 0px 0px 50px 0px var(--bg); */
 }
 
 .project_card:hover {
@@ -367,7 +355,6 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  /* text-transform: capitalize; */
   color: var(--text-color-light);
   display: none;
 }
