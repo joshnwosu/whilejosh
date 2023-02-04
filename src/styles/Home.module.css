@@ -490,23 +490,6 @@
     display: none;
   }
 
-  /* .lamp {
-    position: sticky;
-    visibility: visible;
-    opacity: 1;
-    width: auto;
-
-    font-size: 48px;
-    font-weight: 900;
-    color: var(--text-color-light);
-    top: 50px;
-    left: -20px;
-    opacity: 0.1;
-    margin-bottom: -30px;
-    margin-left: -20px;
-    z-index: 99;
-    pointer-events: none;
-  } */
   .project_continueReading {
     display: flex;
   }
