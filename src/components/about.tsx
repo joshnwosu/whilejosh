@@ -66,7 +66,7 @@ const About: React.FC = () => {
               and helping others to grow. I am always striving to create
               top-notch software that makes a positive impact.
             </p>
-            <p className={[styles.desc, styles.mt_8].join(" ")}>
+            <p className={[styles.desc, styles.mt_16].join(" ")}>
               💬 Download my{" "}
               <a
                 href="https://drive.google.com/file/d/1HylNDppAju6kj5Xhs4zZb9yk4hLSnuN1/view?usp=sharing"
