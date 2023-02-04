@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "@/styles/Home.module.css";
+import { data } from "portfolio.config";
 
 const MadeWithLove = () => {
   return (
@@ -7,7 +8,7 @@ const MadeWithLove = () => {
       <p className={styles.madeWithLove_para}>
         Made with 🥤 by{" "}
         <a
-          href="https://github.com/whilejosh"
+          href="https://github.com/0dizt"
           target="_blank"
           rel="noreferrer"
           className={styles.madeWithLove_link}
@@ -16,7 +17,7 @@ const MadeWithLove = () => {
         </a>{" "}
         &amp;{" "}
         <a
-          href="https://github.com/geekreflex"
+          href="https://github.com/0bizt"
           target="_blank"
           rel="noreferrer"
           className={styles.madeWithLove_link}
