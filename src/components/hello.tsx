@@ -6,11 +6,11 @@ const Hello = () => {
   return (
     <div className={styles.hello}>
       <h1 className={styles.hello_heading}>
-        Let's work <br /> <span>together!</span>
+        Let&apos;s work <br /> <span>together!</span>
       </h1>
       <p className={styles.hello_text}>
-        I'd love to hear from you and always welcome any feedback - please don't
-        hesitate to get in touch!
+        I&apos;d love to hear from you and always welcome any feedback - please
+        don&apos;t hesitate to get in touch!
       </p>
 
       <div className={styles.hello_action}>
@@ -47,7 +47,7 @@ const Hello = () => {
             />
           </g>
         </svg>
-        <a href={`mailto:${data.email}`}>Let's Level Up!</a>
+        <a href={`mailto:${data.email}`}>Let&apos;s Level Up!</a>
       </div>
     </div>
   );
