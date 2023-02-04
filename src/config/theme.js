@@ -35,7 +35,7 @@ export const themeConfig = {
     bg: "#1E1E20",
     card: " #252529",
     textColor: "#fffff5db",
-    textColorLight: "#ebebf599",
+    textColorLight: "#9C9CA3",
     title: "#fffff5db",
     blur0: "linear-gradient(0deg, hsla(0, 0%, 8%, 0), #1E1E20)",
     blur1: "linear-gradient(180deg, hsla(0, 0%, 8%, 0), #1E1E20)",
