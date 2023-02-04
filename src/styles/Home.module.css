@@ -101,7 +101,7 @@
 }
 
 .title::before {
-  content: "";
+  content: '';
   position: absolute;
   width: 60%;
   height: 30px;
@@ -268,7 +268,8 @@
 }
 
 .project,
-.blog {
+.blog,
+.hello {
   margin-bottom: 60px;
 }
 
@@ -405,6 +406,46 @@
 
 .madeWithLove_link {
   text-decoration: underline;
+  color: var(--text-color);
+}
+
+.hello_heading {
+  font-size: 60px;
+  line-height: 1;
+  margin-bottom: 30px;
+  margin-left: 30px;
+}
+
+.hello_heading span {
+  margin-left: 30px;
+}
+
+.hello_text {
+  max-width: 500px;
+  color: var(--text-color-light);
+}
+
+.hello_action {
+  display: flex;
+  align-items: flex-end;
+  gap: 30px;
+}
+
+.hello_action svg {
+  width: 200px;
+}
+
+.hello_action a {
+  border: 1px solid var(--text-color-light);
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-weight: 600;
+  color: var(--text-color-light);
+  font-size: 14px;
+}
+
+.hello_action a:hover {
+  background-color: var(--card);
   color: var(--text-color);
 }
 
