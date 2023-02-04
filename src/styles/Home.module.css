@@ -4,7 +4,6 @@
   margin: 0 auto;
   position: relative;
   padding: 0 50px;
-  /* border: 1px solid red; */
 }
 
 .theme_icon {
@@ -34,16 +33,8 @@
 }
 
 .scrollable {
-  /* min-height: 2000px; */
   padding: 0px 0;
 }
-
-/* .lamp {
-  visibility: hidden;
-  opacity: 0;
-  position: absolute;
-  width: 0;
-} */
 
 .lamp {
   position: sticky;
