@@ -101,7 +101,7 @@
 }
 
 .title::before {
-  content: '';
+  content: "";
   position: absolute;
   width: 60%;
   height: 30px;
@@ -114,6 +114,9 @@
 
 .mt_32 {
   margin-top: 32px;
+}
+.mt_16 {
+  margin-top: 16px;
 }
 .mt_8 {
   margin-top: 8px;
