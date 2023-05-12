@@ -4,8 +4,7 @@ export const data = {
   author: "Joshua Nwosu",
   title: "Software Engineer",
   email: "joshnwosu01@gmail.com",
-  avatar:
-    "https://media.licdn.com/dms/image/C5603AQEEfwyQYyHXHw/profile-displayphoto-shrink_800_800/0/1613826760366?e=1680134400&v=beta&t=sltVISQB9nr2CCn4VSuxDsUItup-uaT7HRc-olvo7Tc",
+  avatar: "/avatar_bw.jpeg",
   socials: [
     {
       title: "Twitter",

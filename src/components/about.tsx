@@ -84,7 +84,17 @@ const About: React.FC = () => {
 
       <div className={styles.footer}>
         <div className={styles.profile_pic}>
-          <Image src={data.avatar} alt="My Image" width={40} height={40} />;
+          <Image
+            src={data.avatar}
+            alt="My Image"
+            width={40}
+            height={40}
+            style={{
+              objectFit: "cover",
+              objectPosition: "center",
+            }}
+          />
+          ;
         </div>
         <ul className={styles.socials}>
           {data.socials.map(({ title, icon, href }, index) => (
