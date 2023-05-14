@@ -3,7 +3,7 @@ import { IoLogoGithub, IoLogoTwitter } from "react-icons/io";
 export const data = {
   author: "Joshua Nwosu",
   title: "Software Engineer",
-  email: "joshnwosu01@gmail.com",
+  email: "joshuanwosu078@gmail.com",
   avatar: "/avatar_bw.jpeg",
   socials: [
     {
