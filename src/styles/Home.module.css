@@ -294,11 +294,11 @@
 
 .project_card:hover {
   /* transform: scale(1.1); */
-  z-index: 2;
+  /* z-index: 2; */
   opacity: 1 !important;
-  text-rendering: optimizeLegibility;
-  backface-visibility: hidden;
-  font-size-adjust: 0.1;
+  /* text-rendering: optimizeLegibility; */
+  /* backface-visibility: hidden; */
+  /* font-size-adjust: 0.1; */
 }
 
 .project_card:hover .project_icon {
@@ -486,10 +486,10 @@
   .blog:hover .project_card {
     opacity: 1;
   }
-
+  /* 
   .project_card:hover {
     transform: none;
-  }
+  } */
 
   .project_icon {
     display: none;
