@@ -293,7 +293,7 @@
 }
 
 .project_card:hover {
-  transform: scale(1.1);
+  /* transform: scale(1.1); */
   z-index: 2;
   opacity: 1 !important;
   text-rendering: optimizeLegibility;
@@ -303,7 +303,7 @@
 
 .project_card:hover .project_icon {
   opacity: 1;
-  transform: scale(1);
+  /* transform: scale(1); */
 }
 
 .project_lang {
