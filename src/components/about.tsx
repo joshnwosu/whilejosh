@@ -73,7 +73,7 @@ const About: React.FC = () => {
                 target="_blank"
                 rel="noreferrer"
               >
-                Résumé
+                résumé
               </a>{" "}
             </p>
           </div>
