@@ -69,7 +69,8 @@ const About: React.FC = () => {
             <p className={[styles.desc, styles.mt_16].join(" ")}>
               💬 Download my{" "}
               <a
-                href="https://drive.google.com/file/d/1HylNDppAju6kj5Xhs4zZb9yk4hLSnuN1/view?usp=sharing"
+                download
+                href="Josh_Nwosu_Resume"
                 target="_blank"
                 rel="noreferrer"
               >
