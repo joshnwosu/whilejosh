@@ -8,7 +8,7 @@ export const data = {
   socials: [
     {
       title: "Twitter",
-      href: "https://twitter.com/0dizt",
+      href: "https://twitter.com/joshnwosu_",
       icon: <IoLogoTwitter size={20} />,
     },
     {
