@@ -70,7 +70,7 @@ const About: React.FC = () => {
               💬 Download my{" "}
               <a
                 download
-                href="Josh_Nwosu_Resume"
+                href="./Josh_Nwosu_Resume.pdf"
                 target="_blank"
                 rel="noreferrer"
               >
